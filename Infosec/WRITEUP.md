@@ -83,6 +83,9 @@ Yay! This gives a long string which definently looks lika an sha-256 encoding. W
 WARNING: Huge P.S. ahead !
 
 P.S. Well, I'm not sure why I got that Segmentation fault though. The address is null and the function is also unknown. Searching on the internet I see that segmentation fault may appear if there is an overflow, etc. So just to make sure that I'm not missing anything, I installed the _Ghidra_ software to analyze further. From it, I found out that the address of the `return` statement inside the `print_flag` function is `0x08048570`.
+
+![screenshot](./assets/ghidra.png)
+
 With the addition of another breaking point here, I repeat the above steps again to get the following result.
 ```
 (gdb) kill
