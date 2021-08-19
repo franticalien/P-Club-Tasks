@@ -86,7 +86,7 @@ P.S. Well, I'm not sure why I got that Segmentation fault though. The address is
 
 ![screenshot](./assets/ghidra.PNG)
 
-With the addition of another breaking point here, I repeat the above steps again to get the following result.
+With the addition of another breaking point here, I repeat the above steps to get the following result.
 ```
 (gdb) kill
 Kill the program being debugged? (y or n) y
